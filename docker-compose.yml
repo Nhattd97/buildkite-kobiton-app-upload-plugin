@@ -4,3 +4,7 @@ services:
     command: ['--id', 'Nhattd97/kobiton-app-upload']
     volumes:
       - ".:/plugin:ro"
+  tests:
+    image: buildkite/plugin-tester
+    volumes:
+      - ".:/plugin:ro"
