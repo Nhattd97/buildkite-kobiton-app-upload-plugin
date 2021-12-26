@@ -4,6 +4,18 @@ author: https://github.com/kobiton
 requirements: []
 configuration:
   properties:
-    pattern:
+    app-name:
+      type: string
+    app-path:
+      type: string
+    app-type:
+      type: string
+    kobiton-app-id:
+      type: string
+    kobiton-app-access:
+      type: string
+    kobiton-username:
+      type: string
+    kobiton-api-key:
       type: string
   additionalProperties: false
