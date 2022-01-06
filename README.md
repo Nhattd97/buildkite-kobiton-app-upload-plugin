@@ -8,10 +8,16 @@ Add the following to your `pipeline.yml`:
 
 ```yml
 steps:
-  - command: ls
+  - command:
     plugins:
       - Nhattd97/kobiton-app-upload#v1.0.0:
-          pattern: '*.md'
+          app-name: '<app-name>'
+          app-path: '<path-to-your-app>'
+          app-type: '<apk or ipa>'
+          kobiton-app-id: 'your-kobiton-app-id'
+          kobiton-app-access: 'private'
+          kobiton-username: '<your-kobiton-username>'
+          kobiton-api-key: '<your-kobiton-api-key>'
 ```
 
 ## Configuration
