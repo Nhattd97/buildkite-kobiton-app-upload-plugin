@@ -1,6 +1,7 @@
 # Kobiton App Upload Buildkite Plugin
 
-A Plugin that take an apk or ipa file and upload it to Kobiton App.
+A Plugin that take an apk or ipa file and upload it to Kobiton App...
+
 
 ## Example
 
